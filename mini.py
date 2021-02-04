@@ -90,9 +90,9 @@ def predect(count):
             SMS(results[0][0][1])
     file.close()
     return(count)
-#camara()
 i=0
 while(true):
+    camara()
     count=predect(count)
     print(results,count)
     i=i+1
