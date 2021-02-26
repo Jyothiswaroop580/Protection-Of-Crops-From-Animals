@@ -44,10 +44,10 @@ def camara(count):
     return(count)
     
 def SMS(animal):
-    account_sid = "ACc2a2dd203984b22f55716430ab52d93e"
-    auth_token = "9b8c36cdaa099c7c6944d70622076533"
+    account_sid = "ACc2a2dd203984b22f55716"
+    auth_token = "9b8c36cdaa099c7c6944"
     client = Client(account_sid, auth_token)
-    client.messages.create(from_="+12566809509",body=animal+" entered",to="+91 7075999345")
+    client.messages.create(from_="+1256680XXXX",body=animal+" entered",to="+91 70759XXXXX")
 
 def predect(count,results):
     file = open('Animal_name.txt','w')
