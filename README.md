@@ -1,10 +1,19 @@
 #Librares required
-tensorflow==1.14.0
-numpy==1.20.1
-ipython==7.19.0
-keras==2.2.5
-h5py==2.10.0
-playsound==1.2.2
-opencv-python==4.1.1.26
-twilio==6.50.1
-pillow==6.1.0
+EXECUTION STEPS:
+Step-1:
+We need to install the required software from the Software Required folder.
+
+Step-2:
+After successful installation of required software Install the packages in librares.txt.
+
+Step-3:
+Keep the internet connection to send the SMS.
+
+Step-4:
+Then run the Crop_Protection.py file in the code folder
+
+Step-5:
+It will take the capture of image.
+
+Step-6:
+Depending on image it will detect it will threaten the animal by producing sounds if not threatened with sounds the notification will be sent.
